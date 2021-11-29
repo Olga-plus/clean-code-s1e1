@@ -111,7 +111,7 @@ input#new-task {
 }
 
 /* Task list */
-li {
+.list-element {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -120,15 +120,15 @@ li {
   align-items: center;
 }
 
-li > * {
+.list-element > * {
   vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+.list-element > input[type="checkbox"] {
   margin: 0 10px;
 }
 
-li > label {
+.list-element > label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -156,7 +156,7 @@ input[type="text"] {
 }
 
 /* Edit Task */
- li input[type="text"] {
+.list-element input[type="text"] {
   display: none;
 }
 

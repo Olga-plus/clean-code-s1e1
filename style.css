@@ -135,7 +135,7 @@ input#new-task {
   width: 226px;
 }
 
-input[type="text"] {
+.style-task {
   width: 226px;
 }
 
@@ -156,11 +156,11 @@ input[type="text"] {
 }
 
 /* Edit Task */
-.list-element input[type="text"] {
+.list-element .style-task {
   display: none;
 }
 
-.edit-mode input[type="text"] {
+.edit-mode .style-task {
   display: inline-block;
   width: 224px;
 }
